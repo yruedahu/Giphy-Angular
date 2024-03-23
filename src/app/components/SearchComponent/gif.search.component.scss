@@ -1,8 +1,10 @@
 .form-wrapper {
-  background-color: #f8f9fa;
+  background: linear-gradient(to bottom right, #582213, #0e3964);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex; /* Utilizar flexbox para alinear verticalmente los elementos */
+  align-items: center; /* Alinear verticalmente los elementos */
 }
 
 .input-field {
@@ -12,4 +14,10 @@
 .submit-button {
   border-radius: 5px;
   background-color: #020c15;
+}
+
+.header-gif {
+  width: 100%; /* Ajustar al 100% del contenedor padre */
+  max-width: calc(100% - 40px); /* Establecer un ancho máximo para la imagen (ancho del contenedor - padding) */
+  height: 150px; /* Mantener la proporción de aspecto */
 }
