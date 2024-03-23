@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-4" *ngFor="let gif of gifs">
       <div class="card mb-4">
-        <img class="card-img-top" [src]="gif.images.original.url" alt="GIF Image">
+        <img class="card-img-top img-fluid" [src]="gif.images.original.url" alt="GIF Image">
         <div class="card-body">
           <h5 class="card-title">{{ gif.title }}</h5>
           <p class="card-text">{{ gif.description }}</p>

@@ -13,6 +13,7 @@ import { Subscription } from 'rxjs';
 export class GifSearchComponent implements OnInit, OnDestroy {
   searchTerm: string = '';
   gifs: Gif[] = [];
+  categories: string[] = ['Comedia', 'Familia', 'Acción', 'Baile', 'Fuego', 'Amor', 'Amistad', 'Guerra'];
   private subscription!: Subscription;
 
   constructor(private gifService: GifApiRestService) { }

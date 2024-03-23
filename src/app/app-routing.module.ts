@@ -4,8 +4,8 @@ import { GifSearchComponent } from './components/SearchComponent/gif.search.comp
 import { GifGalleryComponent } from './components/GalleryComponent/gif.gallery.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/search', pathMatch: 'full' },
-  { path: 'search', component: GifSearchComponent },
+  { path: '', redirectTo: '/findGif', pathMatch: 'full' },
+  { path: 'findGif', component: GifSearchComponent },
   { path: 'gallery', component: GifGalleryComponent },
 ];
 
