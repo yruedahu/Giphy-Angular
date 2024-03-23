@@ -1,25 +1,26 @@
-// Importar Bootstrap
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 // Estilos globales
 html, body {
   height: 100%;
-  background: linear-gradient(to bottom right, #0e3964, #582213);
+  background: linear-gradient(to bottom right, #000000, #2f0d0d);
   background-attachment: fixed;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-// Estilos específicos para cards
+/* ----------------------------------------
+   Estilos específicos para (cards)
+---------------------------------------- */
 .card {
   width: 18rem;
   margin: 10px;
   display: inline-block;
   vertical-align: top;
-  background-color: #fff;
+  background: linear-gradient(to bottom right, #0e3964, #582213);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card:hover {
@@ -37,6 +38,9 @@ html, body {
   color: #333;
 }
 
+/* ----------------------------------------
+   Estilos responsivos
+---------------------------------------- */
 @media (max-width: 768px) {
   .container {
     padding: 10px;

@@ -17,7 +17,46 @@
 }
 
 .header-gif {
-  width: 100%; /* Ajustar al 100% del contenedor padre */
-  max-width: calc(100% - 40px); /* Establecer un ancho máximo para la imagen (ancho del contenedor - padding) */
-  height: 150px; /* Mantener la proporción de aspecto */
+  width: 100%; 
+  max-width: calc(100% - 40px); 
+  height: 150px; 
 }
+
+.suggestions-button {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestions-button .btn {
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.suggestions-button .btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-button .btn:focus {
+  outline: none;
+}
+
+.suggestions-button .btn-primary {
+  color: #fff;
+  background-color: #431616;
+  border-color: #4e0101;
+}
+
+.suggestions-button .btn-outline-primary {
+  color: #995757;
+  border-color: #6d1717;
+}
+
+.suggestions-button .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #b82a14;
+}
+
