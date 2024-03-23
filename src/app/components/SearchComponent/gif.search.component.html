@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-6"> 
+        <h2 class="mb-3">Busca tus GIFs favoritos</h2>
+        <form (ngSubmit)="findGift()" class="mb-4 form-wrapper">
+          <div class="input-group">
+            <input type="text" class="form-control input-field" placeholder="Buscar GIFs" [(ngModel)]="searchTerm" name="searchTerm">
+            <div class="input-group-append">
+              <button type="submit" class="btn btn-primary submit-button">Buscar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  
+    <app-gif-gallery [gifs]="gifs"></app-gif-gallery>
+  </div>
+  
