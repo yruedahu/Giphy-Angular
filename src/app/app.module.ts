@@ -6,13 +6,15 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { GifGalleryComponent } from './components/GalleryComponent/gif.gallery.component';
 import { GifSearchComponent } from './components/SearchComponent/gif.search.component';
+import { LoginComponent} from './components/LoginComponent/login-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     GifGalleryComponent,
-    GifSearchComponent
+    GifSearchComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

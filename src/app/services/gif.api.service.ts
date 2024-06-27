@@ -13,7 +13,7 @@ export class GifApiRestService {
   constructor(private httpClient: HttpClient) { }
 
   findGifs(findTerm: string): Observable<any> {
-    const url = `${this.apiUrl}?api_key=${this.apiKey}&q=${findTerm}&limit=21`;
+    const url = `${this.apiUrl}?api_key=${this.apiKey}&q=${findTerm}&limit=12`;
     return this.httpClient.get(url);
   }
 }
