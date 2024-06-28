@@ -1,27 +1,61 @@
-# GiphyAngular
+# Giphy-Proyect
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Este proyecto es una aplicación web desarrollada en Angular que utiliza la API de Giphy para buscar y mostrar gifs animados.
 
-## Development server
+----------------------------------------------------------------
+**PROPIEDAD** https://github.com/yruedahu/Giphy-Angular
+**DEVELOPER** Mateo Hurtado - Software Engineer
+----------------------------------------------------------------
+## Tabla de Contenidos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Instalación](#instalación)
+- [Requisitos](#requisitos)
+- [Estructura](#estructura)
+- [Funcionalidades](#funcionalidades)
+- [Características](#características)
 
-## Code scaffolding
+## Instalación ##
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para empezar a utilizar Giphy-Proyect, sigue estos sencillos pasos:
 
-## Build
+1. **Clonar el Repositorio:**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ´´bash
+   git clone https://github.com/yruedahu/Giphy-Angular
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Requisitos ##
 
-## Running end-to-end tests
+1. **Node.js**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Angular CLI**
+-------------------------------------------------------------------------------------------------------
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Estructura ##
+
+El código se divide en las siguientes secciones principales:
+
+**enviroments**: Proteccion de data sensible.
+**Interfaces**: Validacion de datos.
+**Components**: Modularidad y principios SOLID.
+**Services**: Inyeccion de dependencias.
+
+
+## Funcionalidades ##
+
+- Consumo de API: Utiliza la API de Giphy para realizar búsquedas de gifs animados.
+- Interfaz de Usuario: Implementa una interfaz amigable donde los usuarios pueden introducir términos de búsqueda y ver los resultados.
+- Funcionalidad de acceso rapido: Permite a los usuarios rutas rapidas de busqueda.
+- Login: Login con ruta protegida con Principio SPA.
+
+
+## Características ## 
+----------------------------------------------------------------
+- Credenciales en variables de entorno.
+- Version de node 19.8.1
+- Sistema operativo windows 11 64bits
+- Dependencias en package json
+- Alojamiento remoto y local.
+
+
